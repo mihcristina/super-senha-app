@@ -146,6 +146,14 @@
                     <navigationItem key="navigationItem" title="Gerador de Senhas" id="D8S-zA-sSI">
                         <barButtonItem key="backBarButtonItem" title="Gerador de Senhas" id="b4W-QW-Rs3"/>
                     </navigationItem>
+                    <connections>
+                        <outlet property="swCapitalLetters" destination="JhG-Sh-rfg" id="gtq-Bs-eWK"/>
+                        <outlet property="swLetters" destination="SwG-nK-hej" id="aVT-XD-AGx"/>
+                        <outlet property="swNumbers" destination="8Cs-gS-XtS" id="GDp-iO-VH1"/>
+                        <outlet property="swSpecialLetters" destination="2BB-NI-ODW" id="nC1-b5-aeG"/>
+                        <outlet property="tfNumberOfCharacters" destination="GX2-ug-IeB" id="94t-WF-tnR"/>
+                        <outlet property="tfTotalPasswords" destination="p4P-Gi-n3V" id="lmd-Cm-PFd"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -154,8 +162,8 @@
         <!--Lista de Senhas-->
         <scene sceneID="lky-Qz-pEA">
             <objects>
-                <viewController id="lev-on-qKl" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="FMJ-us-j5r">
+                <viewController id="lev-on-qKl" customClass="PasswordsViewController" customModule="super_senha_app" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="FMJ-us-j5r" customClass="Passwor">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
