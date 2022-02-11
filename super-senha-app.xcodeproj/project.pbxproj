@@ -17,6 +17,7 @@
 		683CA6E227B6312100B6F1D1 /* super_senha_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683CA6E127B6312100B6F1D1 /* super_senha_appUITests.swift */; };
 		683CA6E427B6312100B6F1D1 /* super_senha_appUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683CA6E327B6312100B6F1D1 /* super_senha_appUITestsLaunchTests.swift */; };
 		683CA6F127B63ACC00B6F1D1 /* PasswordsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683CA6F027B63ACC00B6F1D1 /* PasswordsViewController.swift */; };
+		683CA6F327B63C8600B6F1D1 /* SecurityTipsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683CA6F227B63C8600B6F1D1 /* SecurityTipsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		683CA6E127B6312100B6F1D1 /* super_senha_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = super_senha_appUITests.swift; sourceTree = "<group>"; };
 		683CA6E327B6312100B6F1D1 /* super_senha_appUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = super_senha_appUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		683CA6F027B63ACC00B6F1D1 /* PasswordsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordsViewController.swift; sourceTree = "<group>"; };
+		683CA6F227B63C8600B6F1D1 /* SecurityTipsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecurityTipsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				683CA6C227B6311F00B6F1D1 /* SceneDelegate.swift */,
 				683CA6C427B6311F00B6F1D1 /* ViewController.swift */,
 				683CA6C627B6311F00B6F1D1 /* Main.storyboard */,
+				683CA6F227B63C8600B6F1D1 /* SecurityTipsViewController.swift */,
 				683CA6C927B6312100B6F1D1 /* Assets.xcassets */,
 				683CA6CB27B6312100B6F1D1 /* LaunchScreen.storyboard */,
 				683CA6CE27B6312100B6F1D1 /* Info.plist */,
@@ -265,6 +268,7 @@
 				683CA6F127B63ACC00B6F1D1 /* PasswordsViewController.swift in Sources */,
 				683CA6C127B6311F00B6F1D1 /* AppDelegate.swift in Sources */,
 				683CA6C327B6311F00B6F1D1 /* SceneDelegate.swift in Sources */,
+				683CA6F327B63C8600B6F1D1 /* SecurityTipsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

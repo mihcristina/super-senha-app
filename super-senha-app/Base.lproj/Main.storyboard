@@ -185,6 +185,9 @@
                                 <color key="tintColor" red="0.59607843140000005" green="0.14117647059999999" blue="0.39607843139999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Gerar novamente"/>
+                                <connections>
+                                    <action selector="generate:" destination="lev-on-qKl" eventType="touchUpInside" id="LTT-cv-6bb"/>
+                                </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="999" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="CVN-9G-gKa">
                                 <rect key="frame" x="16" y="162" width="382" height="571"/>
@@ -218,10 +221,10 @@
             </objects>
             <point key="canvasLocation" x="1642.0289855072465" y="77.678571428571431"/>
         </scene>
-        <!--View Controller-->
+        <!--Security Tips View Controller-->
         <scene sceneID="3aC-Rt-Nb1">
             <objects>
-                <viewController id="Y73-4a-kTq" sceneMemberID="viewController">
+                <viewController id="Y73-4a-kTq" customClass="SecurityTipsViewController" customModule="super_senha_app" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="XWl-hR-vlV">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -237,6 +240,9 @@
                                 <color key="tintColor" red="0.59607843140000005" green="0.14117647059999999" blue="0.39607843139999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="fechar"/>
+                                <connections>
+                                    <action selector="close:" destination="Y73-4a-kTq" eventType="touchUpInside" id="Hxd-Uq-W4T"/>
+                                </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dXE-cy-h8D">
                                 <rect key="frame" x="16" y="42" width="374" height="736"/>

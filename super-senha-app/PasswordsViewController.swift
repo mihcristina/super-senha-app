@@ -24,4 +24,6 @@ class PasswordsViewController: UIViewController {
        
     }
     
+    @IBAction func generate(_ sender: UIButton) {
+    }
 }
