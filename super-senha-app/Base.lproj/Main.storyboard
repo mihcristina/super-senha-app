@@ -210,6 +210,9 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Lista de Senhas" id="umV-Nf-Jxq"/>
+                    <connections>
+                        <outlet property="tvPasswords" destination="CVN-9G-gKa" id="IAz-7q-gMy"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xhz-ej-Mpc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
